@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "hono": "^4.6.3"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch index.ts"
+  }
+}
